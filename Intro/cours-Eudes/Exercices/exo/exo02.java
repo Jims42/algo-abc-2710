@@ -11,7 +11,7 @@ public class exo02 {
         
         System.out.println(" resultat = a - b ");
 
-        System.out.println(" resulta " + (a - b ));
+        System.out.println(" resultat " + (a - b ));
    
              {
             

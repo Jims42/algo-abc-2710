@@ -1,6 +1,6 @@
 package exo;
 
- import java.util.Scanner;3
+ import java.util.Scanner;
 
 public class exo01_cor {
 
