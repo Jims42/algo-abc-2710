@@ -1,4 +1,3 @@
-package intro;
 
 public class helloWorld {
     public static void main(String[] args) {
