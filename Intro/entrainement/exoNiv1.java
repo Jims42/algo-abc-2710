@@ -1,4 +1,4 @@
-package exoParNiv;
+package entrainement;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package exo;
+
 
  import java.util.Scanner;
 
