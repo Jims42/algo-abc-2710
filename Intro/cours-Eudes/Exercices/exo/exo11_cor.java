@@ -20,6 +20,7 @@ public class exo11_cor {
         if (reste<0) {
             System.out.println("Opération impossible");
             System.out.println("Fonds insufisants!!!");
+            if(reste<=0){System.out.println("Merci pour votre visite au revoir "); break;}
             
             }else{
                 System.out.println("Veillez prendre votre argent");
