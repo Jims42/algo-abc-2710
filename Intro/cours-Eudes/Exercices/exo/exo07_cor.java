@@ -5,16 +5,20 @@ public class exo07_cor {
 
     public static void main(String[] args) {
         
-        char Y;
-        char N;
-        char reponse;
+        String choix;
+       boolean reponse;
 
         Scanner clavier = new Scanner(System.in);
 
         System.out.println("Do you speak English ?");
             System.out.println("Repondre par Y ou N " );
-clavier.next();
-if (Y) {
+choix=clavier.next().toUpperCase(); 
+if (choix.equals("Y")) {reponse=true;
+System.out.println("nice to meet you");
+}else if (choix.equals("N")) {reponse=false;
+System.out.println("go learn english !");
+
+}else{System.out.println("Mauvais choix");}
     
 }
 
@@ -23,4 +27,4 @@ if (Y) {
         
     }
     
-}
+
