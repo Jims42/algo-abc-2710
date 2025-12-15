@@ -5,13 +5,14 @@ public class Exo01_3 {
 
         double a;
         double r;
-        double pi=3.14;
+        double pi=Math.PI;
 
                 
         System.out.println("Lire le rayon R d'un cercle et un angle A(en degré(s)).");
         System.out.print("rayon = ");r=clavier.nextDouble();
         System.out.print("Angle = ");a=clavier.nextDouble();
-        System.out.println("L'aire du secteur circulaire = "+(pi*(r*r)*a)/360);
+        double resultat=((pi*(r*r)*a)/360);
+        System.out.printf("L'aire du secteur circulaire = %.2f",resultat);
 
 
         

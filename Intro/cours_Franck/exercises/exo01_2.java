@@ -5,7 +5,7 @@ public class exo01_2 {
         Scanner clavier = new Scanner(System.in);
 
         double R;
-        double pi= 3.14;
+        double pi= Math.PI;
 
         System.out.println("Lire le rayon R d'une sphère puis calculer et afficher: ");
 
