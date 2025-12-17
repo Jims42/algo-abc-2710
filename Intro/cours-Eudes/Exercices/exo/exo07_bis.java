@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class exo07_bis {
     public static void main(String[] args) {
         
-        boolean reponse;int erreur=0;
+        int erreur=0;
 
         Scanner clavier = new Scanner(System.in);
         while (erreur<3) {
@@ -12,11 +12,9 @@ public class exo07_bis {
         System.out.println("Do you speak english (YES/NO) ? ");
         String choix=clavier.nextLine().toUpperCase();
 
-       if (choix.equals("YES")) {reponse= true;
-       System.out.println("Nice to meet you");}
+       if (choix.equals("YES")) {System.out.println("Nice to meet you");}
        
-         else if(choix.equals("NO")){ reponse=false;
-        System.out.println("So learn english !");}
+         else if(choix.equals("NO")){ System.out.println("So learn english !");}
 
         else if(!choix.equals("YES")||(!choix.equals("NO"))) {System.out.println("Veillez repondre par YES ou NO");
             ++erreur;}
