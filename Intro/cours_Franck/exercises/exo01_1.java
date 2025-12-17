@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class exo01_1 {
+public class Exo01_1 {
     public static void main(String[] args) {
         
         double a;

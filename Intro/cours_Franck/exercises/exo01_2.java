@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class exo01_2 {
+public class Exo01_2 {
     public static void main(String[] args) {
         
         Scanner clavier = new Scanner(System.in);
