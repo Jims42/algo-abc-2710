@@ -2,9 +2,7 @@ import java.util.Scanner;
 public class exo06_bis {
     public static void main(String[] args) {
         
-        String prenom;
-        String capital;
-        String initial;
+        String prenom;       
         int age;
 
         Scanner clavier = new Scanner(System.in);
