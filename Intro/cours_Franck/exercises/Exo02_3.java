@@ -12,7 +12,7 @@ public static void main(String[] args) {
     System.out.print("Indiquez la valeur de B : ");b=clavier.nextFloat();
     System.out.print("Indiquez la valeur de C : ");c=clavier.nextFloat();
 
-  if (a==b && b==c){resultat=1;} //{System.out.println("Les valeur "+a+" et "+b+" et "+c+" sont egaux");   
+  if (a==b && b==c){resultat=1;}    
   if (a<b && b<c) {resultat=2;}
   if (a<c && c<b) {resultat=3;}
   if (b<a && a<c) {resultat=4;}
