@@ -4,7 +4,7 @@ public class Exo02_6 {
     public static void main(String[] args) {
         
         Scanner clavier = new Scanner(System.in);
-         System.out.println("Indiquez un valeur : ");
+         System.out.println("Indiquez une valeur : ");
         int nombre=clavier.nextInt();
         boolean resultat=true;
         
@@ -17,8 +17,8 @@ public class Exo02_6 {
              }
             }
         if (resultat) {
-            System.out.println(nombre+" est un nombre premier.");
-                    }else{System.out.println(nombre+" n'est pas un nombre premier.");}
+            System.out.println("\u001B[4;32m"+nombre+"\u001B[4;0m est un nombre premier.");
+                    }else{System.out.println("\u001B[4;31m"+nombre+"\u001B[4;0m n'est pas un nombre premier.");}
                     clavier.close();
                        
                    

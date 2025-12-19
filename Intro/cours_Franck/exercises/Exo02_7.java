@@ -16,11 +16,11 @@ public class Exo02_7 {
             try {
                 km = Double.parseDouble(reponse);
             } catch (Exception e) {
-            
+
                 System.out.println("valeur non numérique");
             }
 
-            if (km > 0.01 && km < 1000000) {
+            if (km > 0.01 && km < 1000000) {resultat=true;
 
             } else {
                 resultat = false;
@@ -31,7 +31,7 @@ public class Exo02_7 {
             if (resultat) {
                 double conv = km / MILES;
                 System.out.printf(
-                        "La conversion de \u001B[4;32m%f\u001B[4;0m kilomètres est egals à \u001B[4;32m%.2f\u001B[4;0m miles\n",
+                        "La conversion de \u001B[4;32m%.2f\u001B[4;0m kilomètres est egals à \u001B[4;33m%.2f\u001B[4;0m miles\n",
                         km, conv);
 
             }
