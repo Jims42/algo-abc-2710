@@ -1,4 +1,4 @@
-package intro.cours_Franck;
+package cours_Franck;
 //import java.util.Scanner;
 //import java.util.Random;
 import java.util.*;

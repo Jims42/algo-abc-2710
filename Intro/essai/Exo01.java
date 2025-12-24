@@ -1,4 +1,4 @@
-package intro.essai;
+package essai;
 
 import java.util.Scanner;
 
